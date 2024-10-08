@@ -63,7 +63,7 @@ function jawaban(choice) {
             noAudio.play(); // Putar audio untuk jawaban salah
         }
     } else {
-        if (currentQuestion === questions[0] || currentQuestion === questions[1] || currentQuestion === questions[3] || currentQuestion === questions[4]) {
+        if (currentQuestion === questions[0] || currentQuestion === questions[1] || currentQuestion === questions[3] || currentQuestion === questions[4] || currentQuestion === questions[6]) {
             message.textContent = 'Lah iya Bener dong, Kelas!';
             image.src = 'img/happy.gif'; // Ganti dengan gambar bahagia
             yesAudio.loop = true; // Set audio untuk looping
